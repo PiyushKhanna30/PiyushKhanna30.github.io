@@ -7,6 +7,7 @@
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="icon" type="image/png" href="Requirements/images/favicon.ico">
 	<title>Piyush Khanna</title>
 	
 	<style>
@@ -15,276 +16,314 @@
 	  text-align: center;
 	  margin:0px;
 	  padding: 0px;
+	  font-family: Verdana,Tahoma;
+	  background-image: url("Requirements/images/back.webp"); 
+	  background-repeat: no-repeat;
+	  background-size: 100% 50%;
 	}
 	.img1 {
-	  width: 30%;
+	  width: 20%;
 	  height:auto;
-	  
 	}
 	.main {
-    background: #FFFFFF;
-    position: relative;
-    
-}
-.main-raised {
-    margin: 60px 50px 60px;
-    border-radius: 6px;
-    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
-.shad{
-	box-shadow: 0 10px 12px 1px rgba(0, 0, 0, 0.1), 0 6px 30px 5px rgba(0, 0, 0, 0.1), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-	border-radius: 6px;
-	background-color: rgba(195,195,195,0.25);
+	    background: #FFFFFF;
+	    position: relative;
+	}
+	.main-raised {
+	    margin: 160px 30px 60px;
+	    border-radius: 6px;
+	    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.15), 0 6px 30px 5px rgba(0, 0, 0, 0.10), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	}
+	.shad{
+		box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.15), 0 6px 30px 5px rgba(0, 0, 0, 0.10), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+		border-radius: 6px;
+		background-color: rgba(195,195,195,0.25);
+	}
+	.skills_size
+	{
+		font-size: 0.8em;
+	}
+	.under
+	{
+		text-decoration: underline;
+	}
+	h6,h5,h4,h3
+	{
+		font-weight: 700;
+	}
+	.subheadings{
+		font-weight: 700;
+		color: rgba(0,0,0,0.75);
 	}
 	</style>
 </head>
 <body >
-
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Piyush Khanna</a>
+<!--NAVBAR BEGIN-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" href="https://piyushkhanna30.github.io">Piyush's Portfolio</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">About Me</a>
+        <a class="nav-link" href="#aboutme">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contactme">Contact Me</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Resume</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Me</a>
       </li>    
     </ul>
-  </div>  
+  </div> 
 </nav>
-<br>
+<!--NAVBAR END-->
 
-<div class=" main main-raised" >
-	<div class="col-sm-10">
-		<br><br>
-    <div class="row">
-    	<div class="col-sm-5"></div>
-	  	<div class="col-sm-4"><img src="me.jpg" class="rounded " alt="Piyush Khanna"></div>
-	  	
-	</div>
-	<br>
-	<div class="row">
-		<div class="col-sm-5"></div>
-		<div class="col-sm-4"><h3>Piyush Khanna</h3></div>
-	</div>
-
-	<div class="row">
-		<div class="col-sm-3"></div>
-		<div class="col-sm-8">I am a programming  enthusiast currently pursuing Bachelor's degree in Computer Science Engineering from Guru Nank Dev University, Amritsar, Punjab.I am passionate about <br>building excellent software that improves the lives of people. 
-		</div>
-	</div>
-	<br><br><br>
-	<div class="row">
-		<div class="col-sm-5"></div>
-		<div class="col-sm-4"><h4>Skills</h4></div>
-	</div>
-	<div class="row">
-		<div class="col-sm-3"></div>
-		<div class="col-sm-8">Skills I have acquired during my degree and self-learned skills <br>are listed below. </div>
-	</div><br>
-
-	<div class="row">
-		<div class="col-sm-2"></div>
-		<div class="col"><h6>Programming Languages</h6>
-		<img class="img1 rounded-circle"src="download.jpg" alt="Programming Languages"><br>
-		<span class="badge badge-pill badge-info">C++</span>
-		<span class="badge badge-pill badge-danger">Python</span>
-        <span class="badge badge-pill badge-primary">Java</span>
-		</div>
-
-		<div class="col"><h6>Database Languages</h6>
-		<img class="img1 rounded-circle"src="download (2).png"  alt="Database Languages"><br>
-		<span class="badge badge-pill badge-info">MySQL</span>
-		<span class="badge badge-pill badge-danger">SQL Server</span>
-		</div>
-	</div><br>
-	<div class="row">
-		<div class="col-sm-2"></div>
-		<div class="col"><h6>Frameworks|Libraries</h6>
-		<img class="img1 rounded-circle" src="images6.jpg"  alt="Frameworks|Libraries"><br>
-		<span class="badge badge-pill badge-info">OpenCV</span>
-		<span class="badge badge-pill badge-danger">Numpy</span>
-        <span class="badge badge-pill badge-primary">Pandas</span>
-        <span class="badge badge-pill badge-warning">Matplotlib</span>
-		<span class="badge badge-pill badge-info">SKLearn</span>
-        <span class="badge badge-pill badge-danger">Scrapy</span>
-        <span class="badge badge-pill badge-primary">Tkinter</span>
-		</div>
-
-		<div class="col"><h6>Web Technologies</h6>
-		<img class="img1 rounded-circle" src="images.jpg" alt="Web Technologies"><br>
-		<span class="badge badge-pill badge-info">HTML</span>
-		<span class="badge badge-pill badge-danger">CSS</span>
-        <span class="badge badge-pill badge-primary">Javascript</span>
-        <span class="badge badge-pill badge-warning">Bootstrap</span>
-		<span class="badge badge-pill badge-info">Django</span>
-		</div>
-	</div>
-	<br><br><br>
-	<div class="row">
-		<div class="col-sm-5"></div>
-		<div class="col-sm-4"><h4>Education</h4></div>
-	</div><br>
-	<div class="row" style="text-align:left;">
-		<div class="col-sm-2"></div>
-		<div class="col">
-			<div id="accordion">
-			    <div class="card">
-			      <div class="card-header">
-			        <a class="card-link" data-toggle="collapse" href="#collapseOne">
-			          Bachelor of Computer Science
-			        </a>
-			      </div>
-			      <div id="collapseOne" class="collapse show" data-parent="#accordion">
-			        <div class="card-body">
-			          Institute: Guru Nanak Dev University, Amritsar<br>
-			          Year: 2017-2021<br>
-			          CGPA: 9.19<br>
-			        </div>
-			      </div>
-			    </div>
-			    <div class="card">
-			      <div class="card-header">
-			        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-			        XII (CBSE)
-			      </a>
-			      </div>
-			      <div id="collapseTwo" class="collapse" data-parent="#accordion">
-			        <div class="card-body">
-			          Institute: The Senior Study II, Amritsar<br>
-			          Year: 2016 – 2017<br>
-			          Percentage: 91.40%
-			        </div>
-			      </div>
-			    </div>
-			    <div class="card">
-			      <div class="card-header">
-			        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-			          X (CBSE)
-			        </a>
-			      </div>
-			      <div id="collapseThree" class="collapse" data-parent="#accordion">
-			        <div class="card-body">
-			          Institute: The Senior Study II, Amritsar<br>
-			          Year: 2014 – 2015<br>
-			          CGPA: 9.8
-			        </div>
-			      </div>
-			    </div>
-			  </div>
+<!--MAIN SECTI0N BEGIN-->
+<div class=" main main-raised " style="text-align: center;">
+	<div id="aboutme">
+			<br><br><br>
+			<!--My Image-->	
+		    <div class="row" >
+			  	<div class="col-sm-12">
+			  		<img  src="Requirements\images\me.jpg" class="rounded img-fluid shad" alt="Piyush Khanna">
+			  	</div>
 			</div>
-		</div>
-	<br><br><br>
-	<div class="row">
-		<div class="col-sm-5"></div>
-		<div class="col-sm-4"><h4>Projects</h4></div>
-	</div><br>
-	<div class="row">
-		<div class="col-sm-2"></div>
-		<div class="col">
-			<div class="card shad" style="width:400px">
-			    <!--<img class="card-img-top" src="me.jpg" alt="Card image" style="width:100% ;height:20">-->
-			    <div class="card-body">
-			      <h5 class="card-title">URL Shortener</h5>
-			      <p class="card-text">The URL_Shortener convert the url submitted by user into string of 6 characters that includes [a-z,0-9,A-Z]. This is then combined with the url i.e. 127.0.0.1:8000. And the resultant url when used redirects user to the original url.</p>
-			      <a href="https://github.com/PiyushKhanna30/URL_Shortener" class="btn btn-primary">Github Link</a>
-			      <a href="https://clipmyurl.herokuapp.com" class="btn btn-primary">Live Demo</a>
-			    </div>
-			  </div>
-		</div>
-		<div class="col">
-			<div class="card shad" style="width:400px">
-			    <!--<img class="card-img-top" src="me.jpg" alt="Card image" style="width:100%">-->
-			    <div class="card-body">
-			      <h5 class="card-title">Car Number Plate Detction Extraction And Reading</h5>
-			      <p class="card-text">Number plate detection separation and reading using python opencv and Optical Character Recognition using pytesseract module.</p><br>
-			      <a href="https://github.com/PiyushKhanna30/Number-Plate-Detection-Separation-and-Reading" class="btn btn-primary">Github Link</a>
-			    </div>
-			  </div>
-		</div>
-		</div><br>
-		<div class="row">
-		<div class="col-sm-2"></div>
-		<div class="col">
-			  <div class="card shad" style="width:400px">
-			    <!--<img class="card-img-top" src="Virtual-Assistant.gif" alt="Card image" style="width:100%">-->
-			    <div class="card-body">
-			      <h5 class="card-title">Virtual Assistant With Text To Speech and Speech To Text</h5>
-			      <p class="card-text">Virtual Assistant is made using WolframAlpha and Wikipedia. Here I have used tkinter for GUI. The Virtual Assistant is responsive to the keyboard buttons and to voice.</p><br><br>
-			      <a href="https://github.com/PiyushKhanna30/Virtual-Assistant" class="btn btn-primary">Github Link</a>
-			    </div>
-			  </div>
-		</div>
-		<div class="col">
-			  <div class="card shad" style="width:400px">
-			    <!--<img class="card-img-top" src="colorgame.png" alt="Card image" style="width:100%">-->
-			    <div class="card-body">
-			      <h5 class="card-title">Color Game</h5>
-			      <p class="card-text">Color Game is based on selecting color according to the displayed rgb values. It has two modes EASY and HARD modes with good styling combinations. Color are shown randomly. This project help me to find good color combination knowledge for my various projects. It is made using HTML, CSS and Javascript.</p>
-			      <a href="https://github.com/PiyushKhanna30/Color-Game" class="btn btn-primary">Github Link</a>
-			      <a href="colorGame/colorGame.html" class="btn btn-primary">Live Demo</a>
-			    </div>
-			  </div>
-		</div>
-		</div><br>
-		<div class="row">
-		<div class="col-sm-2"></div>
-		<div class="col">
-			  <div class="card shad" style="width:400px">
-			    <!--<img class="card-img-top" src="movierecom.jpg" alt="Card image" style="width:100%">-->
-			    <div class="card-body">
-			      <h5 class="card-title">Movie Recommender</h5>
-			      <p class="card-text">A movie recommender system based on Movie Lens data set using pandas and python. Recommends movie based on rating of a test user.</p>
-			      <a href="https://github.com/PiyushKhanna30/Movie-Recommendor-System" class="btn btn-primary">Github Link</a>
-			    </div>
-			  </div>
-		</div>
-		<div class="col">
-			<div class="card shad" style="width:400px">
-			    <!--<img class="card-img-top" src="employee_mgmt.png" alt="Card image" style="width:100% ">-->
-			    <div class="card-body">
-			      <h5 class="card-title">Employee Management</h5>
-			      <p class="card-text">This manages the employee data using file base system. Here the salary paid and pending are also maintained.</p>
-			      <a href="https://github.com/PiyushKhanna30/Employee-Management" class="btn btn-primary">Github Link</a>
-			    </div>
-			  </div>
-		</div>
-		</div><br><br>
 
-		<div class="row">
-		<div class="col-sm-5"></div>
-		<div class="col-sm-4"><h4>Contact Me</h4></div>
-	</div><br>
-	<div class="row">
-		<div class="col-sm-3"></div>
-		<div class="col-sm-8">
-			<p >&nbsp&nbsp&nbsp&nbspIn case of any queries or suggestions mail us at &nbsp&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp&nbsp<a href="mailto:khanna.piyush30@gmail.com?Subject=Hello%20Piyush" >Gmail</a></p> 
+			<br>
+
+			<!--My Name-->
+			<div class="row">
+				<div class="col-sm-12 under"><h3>Piyush Khanna</h3></div>
+			</div>
+
+			<!--My Intr0ducti0n-->
+			<div class="row">
+				<div class="col-sm-12">
+					<p>I am a programming  enthusiast currently pursuing Bachelor's degree in Computer Science Engineering <br>from Guru Nank Dev University, Amritsar, Punjab.I am passionate about building <br>excellent software that improves the lives of people.</p> 
+				</div>
+			</div>
+	</div>
+
+	<!--Skills secti0n-->
+	<div id="skills">
+				<br><br><br>
+			<div class="row" >
+				<div class="col-sm-12 under"><h4>Skills</h4></div>
+			</div>
+			<!--Skills intr0ducti0n-->
+			<div class="row">
+				<div class="col-sm-12">
+					<p>Skills I have acquired during my degree and self-learned <br>are listed below.</p> 
+				</div>
+			</div>
+			<!--Programming Languages,Database Languages-->
+			<div class="row">
+				<div class="col-sm-6"><br><h6 class="subheadings">Programming Languages</h6>
+				<img class="img1 rounded-circle"src="Requirements\images\prgramming.jpg" alt="Programming Languages"><br>
+				<span class="skills_size badge badge-pill badge-info">C++</span>
+				<span class="skills_size badge badge-pill badge-danger">Python</span>
+		        <span class="skills_size badge badge-pill badge-primary">Java</span>
+				</div>
+				<div class="col-sm-6"><br><h6 class="subheadings">Database Languages</h6>
+				<img class="img1 rounded-circle"src="Requirements\images\database.png"  alt="Database Languages"><br>
+				<span class="skills_size badge badge-pill badge-info">MySQL</span>
+				<span class="skills_size badge badge-pill badge-danger">SQL Server</span>
+				</div>
+			</div>
+
+			<br><br>
+			<!--Frameworks,Web Technologies-->
+			<div class="row">
+				<div class="col-sm-6"><br><h6 class="subheadings">Frameworks|Libraries</h6>
+				<img class="img1 rounded-circle" src="Requirements\images\library.jpg"  alt="Frameworks|Libraries"><br>
+				<span class="skills_size badge badge-pill badge-info">OpenCV</span>
+				<span class="skills_size badge badge-pill badge-danger">Numpy</span>
+		        <span class="skills_size badge badge-pill badge-warning">Pandas</span><br>
+		        <span class="skills_size badge badge-pill badge-primary">Matplotlib</span>
+				<span class="skills_size badge badge-pill badge-danger">SKLearn</span><br>
+		        <span class="skills_size badge badge-pill badge-warning">Scrapy</span>
+		        <span class="skills_size badge badge-pill badge-primary">Tkinter</span>
+				</div>
+				<div class="col-sm-6"><br><h6 class="subheadings">Web Technologies</h6>
+				<img class="img1 rounded-circle" src="Requirements\images\web.jpg" alt="Web Technologies"><br>
+				<span class="skills_size badge badge-pill badge-info">HTML</span>
+				<span class="skills_size badge badge-pill badge-danger">CSS</span>
+		        <span class="skills_size badge badge-pill badge-primary">Javascript</span><br>
+		        <span class="skills_size badge badge-pill badge-warning">Bootstrap</span>
+				<span class="skills_size badge badge-pill badge-info">Django</span>
+				</div>
+			</div>
+	</div>
+	<div id="education">
+		<br><br><br>
+		<!--Education Secti0n-->
+		<div class="row" >
+			<div class="col-sm-12 under"><h4>Education</h4></div><br>
 		</div>
-		<div class="col">
-			
-		</div>
-		</div>
-	</div><br><br>
+		<!--Education details-->
+		<div class="row" style="text-align:left;margin-left:25px;margin-right:25px ;">
+			<div class="col-sm-12">
+				<div id="accordion">
+				    <div class="card">
+				      <div class="card-header">
+				        <a class="card-link subheadings" data-toggle="collapse" href="#collapseOne" >
+				          Bachelor of Computer Science
+				        </a>
+				      </div>
+				      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+				        <div class="card-body">
+				          <strong>Institute</strong> : Guru Nanak Dev University, Amritsar<br>
+				          <strong>Year</strong> : 2017-2021<br>
+				          <strong>CGPA</strong> : 9.19<br>
+				        </div>
+				      </div>
+				    </div>
+				    <div class="card">
+				      <div class="card-header">
+				        <a class="collapsed card-link subheadings" data-toggle="collapse" href="#collapseTwo" >
+				        XII (CBSE) - Non Medical
+				      </a>
+				      </div>
+				      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+				        <div class="card-body">
+				          <strong>Institute</strong> : The Senior Study II, Amritsar<br>
+				          <strong>Year</strong> : 2016 – 2017<br>
+				          <strong>Percentage</strong> : 91.40%
+				        </div>
+				      </div>
+				    </div>
+				    <div class="card">
+				      <div class="card-header">
+				        <a class="collapsed card-link subheadings" data-toggle="collapse" href="#collapseThree" >
+				          X (CBSE)
+				        </a>
+				      </div>
+				      <div id="collapseThree" class="collapse" data-parent="#accordion">
+				        <div class="card-body">
+				          <strong>Institute</strong> : The Senior Study II, Amritsar<br>
+				          <strong>Year</strong> : 2014 – 2015<br>
+				          <strong>CGPA</strong> : 9.8
+				        </div>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+	</div>
+	
+	<!--Projects Secti0n-->
+	<div id="projects">
+			<br><br><br>
+			<div class="row" >
+				<div class="col-sm-12 under"><h4>Projects</h4></div>
+			</div><br>
+			<div style="margin-left:40px;margin-right:40px ">
+			<div class="row " >
+				<div class="col-sm-6"><br>
+					<div class="card shad" >
+					    <!--<img class="card-img-top" src="me.jpg" alt="Card image" style="width:100% ;height:20">-->
+					    <div class="card-body">
+					      <h5 class="card-title subheadings">URL Shortener</h5>
+					      <p class="card-text">The URL_Shortener convert the url submitted by user into string of 6 characters that includes [a-z,0-9,A-Z]. This is then combined with the url i.e. 127.0.0.1:8000. And the resultant url when used redirects user to the original url.</p>
+					      <a href="https://github.com/PiyushKhanna30/URL_Shortener" class="btn btn-primary">Github Link</a>
+					      <a href="https://clipmyurl.herokuapp.com" class="btn btn-primary">Live Demo</a>
+					    </div>
+					  </div>
+				</div>
+				<div class="col-sm-6"><br>
+					<div class="card shad">
+					    <!--<img class="card-img-top" src="me.jpg" alt="Card image" style="width:100%">-->
+					    <div class="card-body">
+					      <h5 class="card-title subheadings">Car Plate Detection Extraction And Reading</h5>
+					      <p class="card-text">Number plate detection separation and reading using python opencv and Optical Character Recognition using pytesseract module.</p><br>
+					      <a href="https://github.com/PiyushKhanna30/Number-Plate-Detection-Separation-and-Reading" class="btn btn-primary">Github Link</a>
+					    </div>
+					  </div>
+				</div>
+				</div><br>
+				<div class="row">
+				<div class="col-sm-6"><br>
+					  <div class="card shad" >
+					    <!--<img class="card-img-top" src="Virtual-Assistant.gif" alt="Card image" style="width:100%">-->
+					    <div class="card-body">
+					      <h5 class="card-title subheadings">Virtual Assistant With TTS and STT</h5>
+					      <p class="card-text">Virtual Assistant is made using WolframAlpha and Wikipedia. Here I have used tkinter for GUI. The Virtual Assistant is responsive to the keyboard buttons. Also it has Text to Speech and Text to Speech recognition</p><br>
+					      <a href="https://github.com/PiyushKhanna30/Virtual-Assistant" class="btn btn-primary">Github Link</a>
+					    </div>
+					  </div>
+				</div>
+				<div class="col-sm-6"><br>
+					  <div class="card shad" >
+					    <!--<img class="card-img-top" src="colorgame.png" alt="Card image" style="width:100%">-->
+					    <div class="card-body">
+					      <h5 class="card-title subheadings">Color Game</h5>
+					      <p class="card-text">Color Game is based on selecting color according to the displayed rgb values. It has two modes EASY and HARD modes with good styling combinations. Color are shown randomly. This project help me to find good color combination knowledge for my various projects. It is made using HTML, CSS and Javascript.</p>
+					      <a href="https://github.com/PiyushKhanna30/Color-Game" class="btn btn-primary">Github Link</a>
+					      <a href="Requirements/colorGame/colorGame.html" class="btn btn-primary">Live Demo</a>
+					    </div>
+					  </div>
+				</div>
+				</div><br>
+				<div class="row">
+				<div class="col-sm-6"><br>
+					  <div class="card shad" >
+					    <!--<img class="card-img-top" src="movierecom.jpg" alt="Card image" style="width:100%">-->
+					    <div class="card-body">
+					      <h5 class="card-title subheadings">Movie Recommender</h5>
+					      <p class="card-text">A movie recommender system based on Movie Lens data set using pandas and python. Recommends movie based on rating of a test user.</p>
+					      <a href="https://github.com/PiyushKhanna30/Movie-Recommendor-System" class="btn btn-primary">Github Link</a>
+					    </div>
+					  </div>
+				</div>
+				<div class="col-sm-6"><br>
+					<div class="card shad">
+					    <!--<img class="card-img-top" src="employee_mgmt.png" alt="Card image" style="width:100% ">-->
+					    <div class="card-body">
+					      <h5 class="card-title subheadings">Employee Management</h5>
+					      <p class="card-text">This manages the employee data using file base system. Here the salary paid and pending are also maintained.</p><br>
+					      <a href="https://github.com/PiyushKhanna30/Employee-Management" class="btn btn-primary">Github Link</a>
+					    </div>
+					  </div>
+				</div>
+				</div>
+			</div>
+	</div>
+
+	<div id="contactme">
+			<br><br><br>
+			<div class="row" >
+			<div class="col-sm-12 under"><h4>Contact Me</h4></div>
+			</div><br>
+			<div class="row">
+				<div class="col-sm-12">
+					<p >&nbsp&nbsp&nbsp&nbspIn case of any queries or suggestions mail us at &nbsp&nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp&nbsp<a href="mailto:khanna.piyush30@gmail.com?Subject=Hello%20Piyush" >khanna.piyush30@gmail.com</a></p> 
+				</div>
+			</div>
+	</div>
+<br><br>
 </div>
-</div>
-<div class="container-fluid text-center text-md-left" style="background-color: #343a40; text:white;">
-    <div class="row"><br><br></div>
-    <div class="row" style="text-align: center;">
-    	<!--<p style="color: rgba(255,255,255,0.5);">&nbsp&nbsp&nbsp&nbsp<strong>Contact Us At &nbsp&nbsp&nbsp&nbsp- </strong>&nbsp&nbsp&nbsp&nbsp
-    <a style="color: white;" href="https://twitter.com/PiyushKhanna30"><strong>Twitter</strong></a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <a style="color: white;" href="https://www.instagram.com/piyushkhanna_/"><strong>Instagram</strong></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <a style="color: white;" href="https://github.com/PiyushKhanna30"><strong>GitHub</strong></a></p>-->    
+<!--MAIN SECTI0N END-->
+
+<!--F00TER SECTI0N BEGIN-->
+<div class="container-fluid  text-md-left" style="background-color: #343a40; text:white;">
+    <div class="row ">
+    	<div class="col-sm-12">
+    		<br><br><p style="color: white; text-align: center;" class="col-sm-12">© 2020 Piyush Khanna.</p><br><br>
+    	</div>
     </div>
-    <div class="row text-center"><p style="color: white;; text-align: center;" class="col-sm-12">© 2020 Piyush Khanna.</p><br><br></div>
-  </div>
-  
+</div>
+<!--F00TER SECTI0N END-->
 </body>
 </html>
 
